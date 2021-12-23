@@ -1,7 +1,7 @@
 
 # Stocks statistics in real time
 
-This program, through an Excel with four columns: date of purchase of the share, price of purchase of the share, name of the share and the value of the part of a stock that was acquired allows you to retrieve numerous statistics about the shares placed in this Excel in real time
+This program, through an Excel with four columns: date of purchase of the share, price of purchase of the share, name of the share and the value of the part of a stock that was acquired allows you to retrieve numerous statistics in real time about the shares placed in this Excel
 ## Installation
 
 Run these commands to install the used libraries
