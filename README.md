@@ -36,8 +36,6 @@ The program returns several important results for investment analysis.
 
 ![results](https://user-images.githubusercontent.com/76222459/147172049-0efe8a6c-db81-4612-89cc-a70c241c86d1.png)
 
-The program returns several important results for investment analysis.
-
 In addition, it provides graphics that allow you to carefully view statistical details.
 
 ![g1](https://user-images.githubusercontent.com/76222459/147172548-76f29c15-6233-4161-bf77-abe686ad46a9.png)
