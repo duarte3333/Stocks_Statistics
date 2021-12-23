@@ -14,7 +14,7 @@ Run these commands to install the used libraries
 ```
 Then, go to yahoo finance website to see the acronym of all stock's.
 
-![tesla](https://user-images.githubusercontent.com/76222459/147171111-5d151803-15a3-4aef-9e1e-38329a61dfa1.png)
+![Imagem3](https://user-images.githubusercontent.com/76222459/147173563-dd326c44-5223-4af5-a0ee-416d1e9a8ecc.png)
 
 For example Tesla's acronym is TSLA, the picture above shows where to look for the acronym.
 
