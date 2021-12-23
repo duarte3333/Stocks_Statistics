@@ -33,7 +33,7 @@ The program can take around 30 to 40s to run because needs to see several stock 
 For that reason, check if you have good internet connection!
 ## Results
 
-The program returns several important results for investment analysis.
+The program returns several important results for investment analysis in real time.
 
 ![results](https://user-images.githubusercontent.com/76222459/147172049-0efe8a6c-db81-4612-89cc-a70c241c86d1.png)
 
