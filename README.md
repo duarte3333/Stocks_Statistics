@@ -1,5 +1,5 @@
 
-# Stocks Statistics
+# Stocks statistics in real time
 
 This program, through an Excel with three columns: date of purchase of the share, price of purchase of the share and name of the share, allows you to retrieve numerous statistics about the shares placed in this Excel
 ## Installation
