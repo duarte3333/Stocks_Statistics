@@ -40,9 +40,9 @@ In addition, it provides graphics that allow you to carefully view statistical d
 
 ![g10](https://user-images.githubusercontent.com/76222459/147173310-52c09efa-33d0-40e1-8332-e41bac38ce16.png)
 
-![g6](https://user-images.githubusercontent.com/76222459/147173059-3193597e-2925-4b34-af75-1d68402b3c05.png)
+![g6](https://user-images.githubusercontent.com/76222459/147173381-1431dd7a-34b5-41ec-b998-5c4ce56e56a5.png)
 
-![g7](https://user-images.githubusercontent.com/76222459/147173080-c3f3b475-0fed-4755-b526-07b536cf4047.png)
+![g7](https://user-images.githubusercontent.com/76222459/147173403-05716b50-a59f-4cd8-8f75-98b8d1daf6b2.png)
 
 Thanks to matplotlib it is possible to make all of these graphics. I hope that you enjoy this work!
 
