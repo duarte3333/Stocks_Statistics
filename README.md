@@ -38,7 +38,7 @@ The program returns several important results for investment analysis.
 
 In addition, it provides graphics that allow you to carefully view statistical details.
 
-![g10](https://user-images.githubusercontent.com/76222459/147173214-4def01b0-64fc-44bb-aab2-2f0f1e5f0ba9.png)
+![g10](https://user-images.githubusercontent.com/76222459/147173310-52c09efa-33d0-40e1-8332-e41bac38ce16.png)
 
 ![g6](https://user-images.githubusercontent.com/76222459/147173059-3193597e-2925-4b34-af75-1d68402b3c05.png)
 
