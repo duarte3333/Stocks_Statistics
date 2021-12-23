@@ -46,6 +46,8 @@ In addition, it provides graphics that allow you to carefully view statistical d
 ![g7](https://user-images.githubusercontent.com/76222459/147173403-05716b50-a59f-4cd8-8f75-98b8d1daf6b2.png)
 
 Thanks to matplotlib it is possible to make all of these graphics. I hope that you enjoy this work!
+## 🚀 About Me
+I'm a Mechanical Engineer Student...
 
 ## Authors
 
