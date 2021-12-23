@@ -8,8 +8,9 @@ from prettytable import PrettyTable
 
 
 class Stock:
-    def __init__(self, nome, precoCompra , precoAtual,Euro,dia,mes,ano):
+    def __init__(self, nome, precoCompra , precoAtual,Euro,dia,mes,ano,participation):
         self.n = nome
+        self.par = participation
         self.c = precoCompra
         if ("." in nome):
             self.a = precoAtual
@@ -17,6 +18,7 @@ class Stock:
         else: 
             self.a = precoAtual*(1/Euro)
        
+        self.m = self.par * self.a
 
     def get_nome(self):
         return self.n
@@ -28,7 +30,7 @@ class Stock:
         return self.a
     
     def get_profit(self):
-        self.p = self.a - self.c
+        self.p = self.m - self.c
         return self.p
 
 def number_acoes():
@@ -43,15 +45,15 @@ def excel_reader():
     workbook = load_workbook(filename="acoes.xlsx")
     sheet = workbook.active
     #a = sheet["A1"].value
-    f = sheet.iter_rows(min_row = 2,max_row = number_acoes() ,min_col = 1, max_col = 3)
+    f = sheet.iter_rows(min_row = 2,max_row = number_acoes() ,min_col = 1, max_col = 4)
     ano = []
     mes = []
     dia = []
     datas_datetime = []
-    
+    participation = []
     preco_compra = []
     names = []
-    for a,b,c in f:
+    for a,b,c,d in f:
         
         datas = a.value
         datas_datetime.append(datas)
@@ -61,12 +63,14 @@ def excel_reader():
         
         preco_compra.append(b.value)
         names.append(c.value)
+        participation.append(d.value)
     print(names)
     print(preco_compra)
-    return dia,mes,ano,preco_compra,names,datas_datetime
+    
+    return dia,mes,ano,preco_compra,names,datas_datetime, participation
 
 #funcao que cria uma acao e dá append na lista de acoes
-def criar_acao(dia,mes,ano,preco_compra,nomes):
+def criar_acao(dia,mes,ano,preco_compra,nomes,p):
     
     start = datetime.datetime(2020,10, 10)
     end = datetime.datetime.now()
@@ -78,7 +82,7 @@ def criar_acao(dia,mes,ano,preco_compra,nomes):
     for i in range(len(dia)):
     
         name = web.DataReader(nomes[i],'yahoo', start, end)
-        Stock_atual = Stock(nomes[i],preco_compra[i],name.Close[-1],EURUSD.Close[-1],dia[i],mes[i],ano[i])
+        Stock_atual = Stock(nomes[i],preco_compra[i],name.Close[-1],EURUSD.Close[-1],dia[i],mes[i],ano[i],p[i])
         #print(Stock_atual)
         Stocks.append(Stock_atual)
     return Stocks
@@ -274,11 +278,11 @@ def graph_circular(p):
 
 #criar funçao que sugere compra vender ou manter
 def main():
-    dia, mes, ano, preco_compra , nomes, datas = excel_reader()
+    dia, mes, ano, preco_compra , nomes, datas , participation = excel_reader()
     
     percentagens = saber_percentagens(nomes,preco_compra)
     
-    lista_acoes = criar_acao(dia, mes, ano, preco_compra, nomes)
+    lista_acoes = criar_acao(dia, mes, ano, preco_compra, nomes, participation)
     lista_profits_acumulados = estatisticas(lista_acoes)
     top5_investimentos(lista_acoes)
     
@@ -299,6 +303,14 @@ def main():
     graph_circular(percentagens)
     
 main()
+
+
+
+  
+
+
+
+
 
 
 
