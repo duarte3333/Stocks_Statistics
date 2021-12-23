@@ -24,7 +24,7 @@ After that, fill in the excel with the informations as shown in the figure below
 
 Make sure excel is in the same folder as the python script
 
-In this sheet the last action is in cell 8, so put this number in the number_acoes() function in the code
+In this sheet the last stock is in cell 8, so put this number in the number_acoes() function in the code
 
 ![f1](https://user-images.githubusercontent.com/76222459/147171735-ac548e4a-8cf4-4cf9-9048-49f767134636.png)
 
