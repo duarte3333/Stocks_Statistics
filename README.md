@@ -38,7 +38,8 @@ The program returns several important results for investment analysis.
 
 In addition, it provides graphics that allow you to carefully view statistical details.
 
-![g10](https://user-images.githubusercontent.com/76222459/147173139-953fefe1-611f-407a-89f9-3faab855e09e.png)
+![g10](https://user-images.githubusercontent.com/76222459/147173214-4def01b0-64fc-44bb-aab2-2f0f1e5f0ba9.png)
+
 
 Thanks to matplotlib it is possible to make all of these graphics
 
