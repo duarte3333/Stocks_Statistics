@@ -21,8 +21,7 @@ For example Tesla's acronym is TSLA, the picture above shows where to look for t
 
 After that, fill in the excel with the informations as shown in the figure below.
 
-![excel](https://user-images.githubusercontent.com/76222459/147182395-94e2b008-73af-4372-b827-bdbbf0119daa.png)
-
+![excel](https://user-images.githubusercontent.com/76222459/147183300-6698952a-3cc3-40f6-a4f4-c73951e8519e.png)
 
 Make sure excel is in the same folder as the python script
 
