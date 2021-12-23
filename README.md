@@ -47,7 +47,7 @@ In addition, it provides graphics that allow you to carefully view statistical d
 
 Thanks to matplotlib it is possible to make all of these graphics. I hope that you enjoy this work!
 ## 🚀 About Me
-I'm a Mechanical Engineer Student...
+I'm a mechanical engineering student and I really enjoy programming...
 
 ## Authors
 
