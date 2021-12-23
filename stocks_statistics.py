@@ -34,7 +34,7 @@ class Stock:
         return self.p
 
 def number_acoes():
-    number = 21
+    number = 17
     return number
 
 #funcao que le ficheiros excel e recebe data de compra e valor da compra
@@ -77,7 +77,7 @@ def criar_acao(dia,mes,ano,preco_compra,nomes,p):
     EURUSD = web.DataReader("EURUSD=X",'yahoo', start, end)
     Stocks = []
     
-    print("Aguarde um pouco...")
+    print("Wait a few moments...")
   
     for i in range(len(dia)):
     
@@ -306,17 +306,4 @@ main()
 
 
 
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
+ 
